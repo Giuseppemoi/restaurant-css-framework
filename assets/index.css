@@ -13,31 +13,64 @@ nav {
 a {
   color: white;
   text-decoration: none;
-  padding-left: 2%;
+  margin-left: 2%;
 }
 
-a:hover {
+.navBouton {
+  -webkit-transition: 0.6s ease-in-out;
+  transition: 0.6s ease-in-out;
+}
+
+.navBouton:hover {
   color: #FF8800;
-  -webkit-transition: 0.5s ease-in-out;
-  transition: 0.5s ease-in-out;
-}
-
-a:hover .navBoutonBuy {
-  -webkit-transition: 0.5s ease-in-out;
-  transition: 0.5s ease-in-out;
-  padding: 25px 65px 25px 65px;
+  border-bottom: 1.5px solid white;
 }
 
 .navTitle {
+  -webkit-transition: 0.6s ease-in-out;
+  transition: 0.6s ease-in-out;
   font-size: 25px;
   margin-right: 25%;
   font-weight: 700;
 }
 
+.navTitle:hover {
+  color: #FF8800;
+}
+
 .navBoutonBuy {
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
   background-color: white;
   color: black;
   padding: 15px 50px 15px 50px;
   margin-left: 3%;
+}
+
+.navBoutonBuy:hover {
+  color: #FF8800;
+  padding: 15px 65px 15px 65px;
+  font-weight: 900;
+}
+
+@media only screen and (max-width: 1100px) {
+  body {
+    background-color: lightblue;
+  }
+  body nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .navTitle {
+    margin: 0px 0px 20px 0px;
+  }
+  body .navBouton {
+    margin-bottom: 2%;
+  }
 }
 /*# sourceMappingURL=index.css.map */

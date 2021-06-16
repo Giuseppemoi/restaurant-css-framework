@@ -13,24 +13,49 @@ nav {
 a {
     color: white;
     text-decoration: none;
-    padding-left: 2%;
+    margin-left: 2%;
+
+}
+.navBouton {
+    transition: 0.6s ease-in-out;
     &:hover {
         color: #FF8800;
-        transition: 0.5s ease-in-out;
-        .navBoutonBuy {
-        transition: 0.5s ease-in-out;
-        padding: 25px 65px 25px 65px;
-        }
+        border-bottom: 1.5px solid white;
     }
 }
 .navTitle {
+    transition: 0.6s ease-in-out;
     font-size: 25px;
     margin-right: 25%;
     font-weight: 700;
+    &:hover {
+        color: #FF8800;
+    }
 }
 .navBoutonBuy {
+    transition: 0.5s ease-in-out;
     background-color: white;
     color: black;
     padding: 15px 50px 15px 50px;
     margin-left: 3%;
+    &:hover {
+        color: #FF8800;
+        padding: 15px 65px 15px 65px;
+        font-weight: 900;
+    }
+}
+
+
+@media only screen and (max-width: 1100px) {
+      nav {
+          display: flex;
+          flex-direction: column;
+      }
+      .navTitle {
+          margin: 0px 0px 20px 0px;
+      }
+      .navBouton {
+          margin-bottom: 2%;
+      }
+    }
 }
