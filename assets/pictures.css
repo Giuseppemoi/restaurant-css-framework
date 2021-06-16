@@ -1,0 +1,260 @@
+body {
+  background-color: #303030;
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+}
+
+.logo {
+  width: 80px;
+}
+
+nav {
+  font-size: 19px;
+  text-align: center;
+  font-weight: 400;
+  position: fixed;
+  width: 100%;
+  background-color: #303030;
+  top: 0;
+  padding: 1.5%;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  margin-left: 2%;
+}
+
+.navBouton {
+  -webkit-transition: 0.6s ease-in-out;
+  transition: 0.6s ease-in-out;
+}
+
+.navBouton:hover {
+  color: #FF8800;
+  border-bottom: 1.5px solid white;
+}
+
+.navTitle {
+  -webkit-transition: 0.6s ease-in-out;
+  transition: 0.6s ease-in-out;
+  font-size: 25px;
+  margin-right: 25%;
+  font-weight: 700;
+}
+
+.navTitle:hover {
+  color: #FF8800;
+}
+
+.navBoutonBuy {
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  background-color: white;
+  color: black;
+  padding: 15px 50px 15px 50px;
+  margin-left: 3%;
+}
+
+.navBoutonBuy:hover {
+  color: #FF8800;
+  padding: 15px 65px 15px 65px;
+  font-weight: 900;
+}
+
+.block {
+  background-color: #868686;
+  margin-top: 2%;
+  height: 5000px;
+}
+
+footer ul a {
+  font-size: 17px;
+  color: white;
+  line-height: 25px;
+  text-decoration: none;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+ul {
+  list-style-type: none;
+  padding: 20px;
+  width: 150px;
+}
+
+.flexFooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: distribute;
+      align-content: space-around;
+}
+
+ul a:hover {
+  color: #FF8800;
+}
+
+.footerTitle {
+  color: #868686;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.footerLetter {
+  color: white;
+  font-size: 17px;
+  width: 616x;
+}
+
+.imgFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10%;
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 8%;
+}
+
+.img2 {
+  margin-top: 3%;
+}
+
+.img3 {
+  margin-top: 3%;
+}
+
+.flexText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+p {
+  margin-left: 4%;
+  margin-top: 7%;
+  color: white;
+  font-weight: 400;
+  width: 200px;
+  font-style: italic;
+}
+
+@media only screen and (max-width: 1100px) {
+  nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    font-weight: 400;
+    -webkit-transition: 0.6s ease-in-out;
+    transition: 0.6s ease-in-out;
+    position: unset;
+    padding: 0;
+  }
+  .navTitle {
+    margin: 0px 0px 18px 15px;
+    font-size: 30px;
+  }
+  .navBouton {
+    margin-bottom: 0.8%;
+    background-color: whitesmoke;
+    color: black;
+    padding: 1.5%;
+    font-size: 17px;
+  }
+  .navBouton:hover {
+    color: #FF8800;
+    font-size: 19px;
+  }
+  .navBoutonBuy {
+    margin: 0;
+    color: #FF8800;
+  }
+  .navBoutonBuy:hover {
+    font-weight: 900;
+    font-size: 25px;
+  }
+  a {
+    margin: 0;
+  }
+  .flexText {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: start;
+    font-weight: 400;
+    -webkit-transition: 0.6s ease-in-out;
+    transition: 0.6s ease-in-out;
+    position: unset;
+    padding: 0;
+  }
+  .navTitle {
+    margin: 0px 0px 18px 15px;
+    font-size: 30px;
+  }
+  .navBouton {
+    margin-bottom: 0.8%;
+    background-color: white;
+    color: black;
+    padding: 1.5%;
+    padding-left: 3.5%;
+    font-size: 17px;
+  }
+  .navBouton:hover {
+    color: #FF8800;
+    font-size: 19px;
+  }
+  .navBoutonBuy {
+    margin: 0;
+    padding-left: 3.5%;
+    color: #FF8800;
+  }
+  .navBoutonBuy:hover {
+    font-weight: 700;
+    font-size: 22px;
+  }
+  a {
+    margin: 0;
+  }
+  .imgFlex {
+    width: auto;
+    -webkit-box-align: normal;
+        -ms-flex-align: normal;
+            align-items: normal;
+  }
+  .flexText {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+/*# sourceMappingURL=pictures.css.map */
