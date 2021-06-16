@@ -1,0 +1,32 @@
+body {
+    background-color: #303030;
+    font-family: 'Lato', sans-serif;
+}
+
+
+nav {
+    font-size: 19px;
+    text-align: center;
+    margin-top: 3%;
+    font-weight: 400;
+}
+a {
+    color: white;
+    text-decoration: none;
+    padding-left: 2%;
+    &:hover {
+        color: #FF8800;
+        transition: 0.5s ease-in-out;
+    }
+}
+.navTitle {
+    font-size: 25px;
+    margin-right: 25%;
+    font-weight: 700;
+}
+.navBoutonBuy {
+    background-color: white;
+    color: black;
+    padding: 15px 50px 15px 50px;
+    margin-left: 3%;
+}
