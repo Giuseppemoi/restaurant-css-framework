@@ -4,7 +4,9 @@ body {
     margin: 0;
 }
 
-
+.logo {
+    width: 90px;
+}
 nav {
     font-size: 19px;
     text-align: center;
@@ -54,13 +56,19 @@ a {
         font-weight: 400;
         transition: 0.6s ease-in-out;
     }
+    .logo {
+        width: 90px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
     .navTitle {
         margin: 0px 0px 18px 15px;
         font-size: 30px;
     }
     .navBouton {
         margin-bottom: 0.8%;
-        background-color: white;
+        background-color: whitesmoke;
         color: black;
         padding: 1.5%;
         font-size: 17px;
@@ -90,6 +98,12 @@ a {
         text-align: start;
         font-weight: 400;
         transition: 0.6s ease-in-out;
+    }
+    .logo {
+        width: 90px;
+        display: block;
+        margin-left: 3px;
+        margin-right: 0;
     }
     .navTitle {
         margin: 0px 0px 18px 15px;
