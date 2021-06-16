@@ -256,5 +256,8 @@ p {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  p {
+    width: 120px;
+  }
 }
 /*# sourceMappingURL=pictures.css.map */
