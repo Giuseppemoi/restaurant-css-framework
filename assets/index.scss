@@ -1,6 +1,7 @@
 body {
     background-color: #303030;
     font-family: 'Lato', sans-serif;
+    margin: 0;
 }
 
 
@@ -56,12 +57,10 @@ a {
     .navTitle {
         margin: 0px 0px 18px 15px;
         font-size: 30px;
-        text-align: start;
     }
     .navBouton {
-        margin-bottom: 2%;
+        margin-bottom: 0.8%;
         background-color: white;
-        border-radius: 5px;
         color: black;
         padding: 1.5%;
         font-size: 17px;
@@ -71,10 +70,9 @@ a {
         }
     }
     .navBoutonBuy {
-        border-radius: 5px;
         margin: 0;
-        &:hover {
         color: #FF8800;
+        &:hover {
         font-weight: 900;
         font-size: 25px;
         }
@@ -98,9 +96,8 @@ a {
         font-size: 30px;
     }
     .navBouton {
-        margin-bottom: 2%;
+        margin-bottom: 0.8%;
         background-color: white;
-        border-radius: 5px;
         color: black;
         padding: 1.5%;
         padding-left: 3.5%;
@@ -111,11 +108,10 @@ a {
         }
     }
     .navBoutonBuy {
-        border-radius: 5px;
         margin: 0;
         padding-left: 3.5%;
-        &:hover {
         color: #FF8800;
+        &:hover {
         font-weight: 700;
         font-size: 22px;
         }
