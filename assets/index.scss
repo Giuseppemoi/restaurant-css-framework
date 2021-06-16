@@ -17,6 +17,10 @@ a {
     &:hover {
         color: #FF8800;
         transition: 0.5s ease-in-out;
+        .navBoutonBuy {
+        transition: 0.5s ease-in-out;
+        padding: 25px 65px 25px 65px;
+        }
     }
 }
 .navTitle {
