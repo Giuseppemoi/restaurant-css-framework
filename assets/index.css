@@ -5,14 +5,18 @@ body {
 }
 
 .logo {
-  width: 90px;
+  width: 80px;
 }
 
 nav {
   font-size: 19px;
   text-align: center;
-  margin-top: 3%;
   font-weight: 400;
+  position: fixed;
+  width: 100%;
+  background-color: #303030;
+  top: 0;
+  padding: 1.5%;
 }
 
 a {
@@ -58,6 +62,54 @@ a {
   font-weight: 900;
 }
 
+.block {
+  background-color: #868686;
+  margin-top: 2%;
+  height: 5000px;
+}
+
+footer ul a {
+  font-size: 17px;
+  color: white;
+  line-height: 25px;
+  text-decoration: none;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+ul {
+  list-style-type: none;
+  padding: 20px;
+  width: 150px;
+}
+
+.flexFooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: distribute;
+      align-content: space-around;
+}
+
+ul a:hover {
+  color: #FF8800;
+}
+
+.footerTitle {
+  color: #868686;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.footerLetter {
+  color: white;
+  font-size: 17px;
+  width: 616x;
+}
+
 @media only screen and (max-width: 1100px) {
   nav {
     display: -webkit-box;
@@ -70,12 +122,8 @@ a {
     font-weight: 400;
     -webkit-transition: 0.6s ease-in-out;
     transition: 0.6s ease-in-out;
-  }
-  .logo {
-    width: 90px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    position: unset;
+    padding: 0;
   }
   .navTitle {
     margin: 0px 0px 18px 15px;
@@ -118,12 +166,8 @@ a {
     font-weight: 400;
     -webkit-transition: 0.6s ease-in-out;
     transition: 0.6s ease-in-out;
-  }
-  .logo {
-    width: 90px;
-    display: block;
-    margin-left: 3px;
-    margin-right: 0;
+    position: unset;
+    padding: 0;
   }
   .navTitle {
     margin: 0px 0px 18px 15px;
