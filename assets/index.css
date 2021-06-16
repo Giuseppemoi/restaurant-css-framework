@@ -54,10 +54,7 @@ a {
 }
 
 @media only screen and (max-width: 1100px) {
-  body {
-    background-color: lightblue;
-  }
-  body nav {
+  nav {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -65,12 +62,84 @@ a {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    font-weight: 400;
+    -webkit-transition: 0.6s ease-in-out;
+    transition: 0.6s ease-in-out;
   }
-  body .navTitle {
-    margin: 0px 0px 20px 0px;
+  .navTitle {
+    margin: 0px 0px 18px 15px;
+    font-size: 30px;
+    text-align: start;
   }
-  body .navBouton {
+  .navBouton {
     margin-bottom: 2%;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    padding: 1.5%;
+    font-size: 17px;
+  }
+  .navBouton:hover {
+    color: #FF8800;
+    font-size: 19px;
+  }
+  .navBoutonBuy {
+    border-radius: 5px;
+    margin: 0;
+  }
+  .navBoutonBuy:hover {
+    color: #FF8800;
+    font-weight: 900;
+    font-size: 25px;
+  }
+  a {
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: start;
+    font-weight: 400;
+    -webkit-transition: 0.6s ease-in-out;
+    transition: 0.6s ease-in-out;
+  }
+  .navTitle {
+    margin: 0px 0px 18px 15px;
+    font-size: 30px;
+  }
+  .navBouton {
+    margin-bottom: 2%;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    padding: 1.5%;
+    padding-left: 3.5%;
+    font-size: 17px;
+  }
+  .navBouton:hover {
+    color: #FF8800;
+    font-size: 19px;
+  }
+  .navBoutonBuy {
+    border-radius: 5px;
+    margin: 0;
+    padding-left: 3.5%;
+  }
+  .navBoutonBuy:hover {
+    color: #FF8800;
+    font-weight: 700;
+    font-size: 22px;
+  }
+  a {
+    margin: 0;
   }
 }
 /*# sourceMappingURL=index.css.map */

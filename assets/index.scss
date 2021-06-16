@@ -47,15 +47,80 @@ a {
 
 
 @media only screen and (max-width: 1100px) {
-      nav {
-          display: flex;
-          flex-direction: column;
-      }
-      .navTitle {
-          margin: 0px 0px 20px 0px;
-      }
-      .navBouton {
-          margin-bottom: 2%;
-      }
+    nav {
+        display: flex;
+        flex-direction: column;
+        font-weight: 400;
+        transition: 0.6s ease-in-out;
+    }
+    .navTitle {
+        margin: 0px 0px 18px 15px;
+        font-size: 30px;
+        text-align: start;
+    }
+    .navBouton {
+        margin-bottom: 2%;
+        background-color: white;
+        border-radius: 5px;
+        color: black;
+        padding: 1.5%;
+        font-size: 17px;
+        &:hover {
+        color: #FF8800;
+        font-size: 19px;
+        }
+    }
+    .navBoutonBuy {
+        border-radius: 5px;
+        margin: 0;
+        &:hover {
+        color: #FF8800;
+        font-weight: 900;
+        font-size: 25px;
+        }
+    }
+    a {
+        margin: 0;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        font-weight: 400;
+        transition: 0.6s ease-in-out;
+    }
+    .navTitle {
+        margin: 0px 0px 18px 15px;
+        font-size: 30px;
+    }
+    .navBouton {
+        margin-bottom: 2%;
+        background-color: white;
+        border-radius: 5px;
+        color: black;
+        padding: 1.5%;
+        padding-left: 3.5%;
+        font-size: 17px;
+        &:hover {
+        color: #FF8800;
+        font-size: 19px;
+        }
+    }
+    .navBoutonBuy {
+        border-radius: 5px;
+        margin: 0;
+        padding-left: 3.5%;
+        &:hover {
+        color: #FF8800;
+        font-weight: 700;
+        font-size: 22px;
+        }
+    }
+    a {
+        margin: 0;
     }
 }
