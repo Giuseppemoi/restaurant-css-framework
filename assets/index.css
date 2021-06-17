@@ -72,14 +72,12 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  text-align: center;
   width: auto;
 }
 
 .page-link {
   text-decoration: none;
   font-weight: 700;
-  font-size: 17px;
 }
 
 .page-item {
@@ -88,6 +86,7 @@ body {
 }
 
 .page-item:hover {
+  color: #FF8800;
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
 }
