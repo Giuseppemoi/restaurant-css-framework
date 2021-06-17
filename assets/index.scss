@@ -57,6 +57,49 @@ body {
 }
 //
 
+//Jumbotron middle//
+.jumbotron {
+    margin: 10% auto 5% auto;
+    max-width: 80%;
+    background-image: url(https://github.com/Giuseppemoi/restaurant-css-framework/blob/master/assets/images/imgjumbo.jpg?raw=true);
+    background-repeat: no-repeat;
+    background-size: auto;
+    font-weight: 700;
+}
+.seeTextJumbo {
+    color: white;
+    text-shadow: 2px 2px black;
+}
+.btn {
+    background-color: #FF8B00;
+    border: none; 
+    &:hover {
+        background-color: #303030;
+    }
+}
+//
+
+
+
+//Card News + Event//
+.cardFlex {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 8%;
+}
+.card {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.mb-0 {
+    padding-top: 6%;
+    font-size: 18px;
+}
+.mb-3 {
+    color: #FF8800;
+}
+//
 
 
 
@@ -128,6 +171,13 @@ ul a:hover {
     a {
         margin: 0;
     }
+    .cardFlex {
+        flex-direction: column;
+        margin-left: 30%;
+    }
+    .card {
+        margin-top: 3%;
+    }
 }
 
 
@@ -166,5 +216,12 @@ ul a:hover {
         font-weight: 700;
         font-size: 22px;
         }
+    }
+    .cardFlex {
+        flex-direction: column;
+        margin-left: 15%;
+    }
+    .card {
+        margin-top: 3%;
     }
 }

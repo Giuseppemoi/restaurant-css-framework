@@ -64,6 +64,56 @@ body {
   text-decoration: none;
 }
 
+.jumbotron {
+  margin: 10% auto 5% auto;
+  max-width: 80%;
+  background-image: url(https://github.com/Giuseppemoi/restaurant-css-framework/blob/master/assets/images/imgjumbo.jpg?raw=true);
+  background-repeat: no-repeat;
+  background-size: auto;
+  font-weight: 700;
+}
+
+.seeTextJumbo {
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+.btn {
+  background-color: #FF8B00;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #303030;
+}
+
+.cardFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-bottom: 8%;
+}
+
+.card {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.mb-0 {
+  padding-top: 6%;
+  font-size: 18px;
+}
+
+.mb-3 {
+  color: #FF8800;
+}
+
 footer ul a {
   font-size: 17px;
   color: white;
@@ -144,6 +194,16 @@ ul a:hover {
   a {
     margin: 0;
   }
+  .cardFlex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: 30%;
+  }
+  .card {
+    margin-top: 3%;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -187,6 +247,16 @@ ul a:hover {
   .navBoutonBuy:hover {
     font-weight: 700;
     font-size: 22px;
+  }
+  .cardFlex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: 15%;
+  }
+  .card {
+    margin-top: 3%;
   }
 }
 /*# sourceMappingURL=index.css.map */
