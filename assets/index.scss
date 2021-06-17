@@ -58,26 +58,6 @@ body {
 //
 
 
-//Pagination//
-.pagination {
-    margin-top: 7%;
-    display: flex;
-    justify-content: center;
-    width: auto;
-}
-.page-link {
-    text-decoration: none;
-    font-weight: 700;
-}
-.page-item {
-    transition: 0.3s ease-in-out;
-    &:hover {
-        color: #FF8800;
-        transform: scale(1.2);
-    }
-}
-//
-
 
 
 //Footer//

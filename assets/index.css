@@ -64,33 +64,6 @@ body {
   text-decoration: none;
 }
 
-.pagination {
-  margin-top: 7%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: auto;
-}
-
-.page-link {
-  text-decoration: none;
-  font-weight: 700;
-}
-
-.page-item {
-  -webkit-transition: 0.3s ease-in-out;
-  transition: 0.3s ease-in-out;
-}
-
-.page-item:hover {
-  color: #FF8800;
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
-}
-
 footer ul a {
   font-size: 17px;
   color: white;
