@@ -4,10 +4,12 @@ body {
     margin: 0;
 }
 
+
+//Navigation Bar//
 .logo {
     width: 80px;
 }
-nav {
+.navigation {
     font-size: 19px;
     text-align: center;
     font-weight: 400;
@@ -18,17 +20,14 @@ nav {
     top: 0;
     padding: 1.5%;
 }
-a {
-    color: white;
-    text-decoration: none;
-    margin-left: 2%;
-
-}
 .navBouton {
     transition: 0.6s ease-in-out;
+    color: white;
+    margin-left: 2%;
     &:hover {
         color: #FF8800;
-        border-bottom: 1.5px solid white;
+        border-bottom: 1.5px solid #FF8800;
+        text-decoration: none;
     }
 }
 .navTitle {
@@ -36,8 +35,11 @@ a {
     font-size: 25px;
     margin-right: 25%;
     font-weight: 700;
+    color: white;
+    margin-left: 2%;
     &:hover {
         color: #FF8800;
+        text-decoration: none;
     }
 }
 .navBoutonBuy {
@@ -50,10 +52,35 @@ a {
         color: #FF8800;
         padding: 15px 65px 15px 65px;
         font-weight: 900;
+        text-decoration: none;
     }
 }
+//
 
 
+//Pagination//
+.pagination {
+    margin-top: 7%;
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+.page-link {
+    text-decoration: none;
+    font-weight: 700;
+}
+.page-item {
+    transition: 0.3s ease-in-out;
+    &:hover {
+        color: #FF8800;
+        transform: scale(1.2);
+    }
+}
+//
+
+
+
+//Footer//
 footer ul a{
     font-size: 17px;
     color: white;
@@ -70,26 +97,23 @@ ul {
     display: flex;
     justify-content: center;
     align-content: space-around;
+    margin-top: 2%;
 }
 ul a:hover {
     color: #FF8800;
+    text-decoration: none;
 }
 .footerTitle {
     color: #868686;
     font-size: 18px;
     font-weight: 700;
 }
-
-
-
-
-
-
+//
 
 
 
 @media only screen and (max-width: 1100px) {
-    nav {
+    .navigation {
         display: flex;
         flex-direction: column;
         font-weight: 400;
@@ -97,12 +121,6 @@ ul a:hover {
         position: unset;
         padding: 0;
     }
-    // .logo {
-    //     width: 90px;
-    //     display: block;
-    //     margin-left: auto;
-    //     margin-right: auto;
-    // }
     .navTitle {
         margin: 0px 0px 18px 15px;
         font-size: 30px;
@@ -112,6 +130,7 @@ ul a:hover {
         background-color: whitesmoke;
         color: black;
         padding: 1.5%;
+        margin-left: 0;
         font-size: 17px;
         &:hover {
         color: #FF8800;
@@ -133,7 +152,7 @@ ul a:hover {
 
 
 @media only screen and (max-width: 600px) {
-    nav {
+    .navigation {
         display: flex;
         flex-direction: column;
         text-align: start;
@@ -142,12 +161,6 @@ ul a:hover {
         position: unset;
         padding: 0;
     }
-    // .logo {
-    //     width: 90px;
-    //     display: block;
-    //     margin-left: 3px;
-    //     margin-right: 0;
-    // }
     .navTitle {
         margin: 0px 0px 18px 15px;
         font-size: 30px;
@@ -158,6 +171,7 @@ ul a:hover {
         color: black;
         padding: 1.5%;
         padding-left: 3.5%;
+        margin-left: 0;
         font-size: 17px;
         &:hover {
         color: #FF8800;
@@ -172,9 +186,6 @@ ul a:hover {
         font-weight: 700;
         font-size: 22px;
         }
-    }
-    a {
-        margin: 0;
     }
 }
 
