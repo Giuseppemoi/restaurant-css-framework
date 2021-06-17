@@ -3,32 +3,36 @@ body {
     font-family: 'Lato', sans-serif;
     margin: 0;
     color: white;
+    background-image: url("https://images.pexels.com/photos/5908001/pexels-photo-5908001.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
+//Navigation Bar//
 .logo {
     width: 80px;
 }
-nav {
+.navigation {
     font-size: 19px;
     text-align: center;
     font-weight: 400;
     position: fixed;
+    z-index: 1;
     width: 100%;
     background-color: #303030;
     top: 0;
     padding: 1.5%;
 }
-a {
-    color: white;
-    text-decoration: none;
-    margin-left: 2%;
-
-}
 .navBouton {
     transition: 0.6s ease-in-out;
+    color: white;
+    margin-left: 2%;
     &:hover {
         color: #FF8800;
-        border-bottom: 1.5px solid white;
+        border-bottom: 1.5px solid #FF8800;
+        text-decoration: none;
     }
 }
 .navTitle {
@@ -36,8 +40,11 @@ a {
     font-size: 25px;
     margin-right: 25%;
     font-weight: 700;
+    color: white;
+    margin-left: 2%;
     &:hover {
         color: #FF8800;
+        text-decoration: none;
     }
 }
 .navBoutonBuy {
@@ -50,16 +57,38 @@ a {
         color: #FF8800;
         padding: 15px 65px 15px 65px;
         font-weight: 900;
+        text-decoration: none;
     }
 }
+//
 
-.block {
-    background-color: #868686;
-    margin-top: 2%;
-    height: 5000px;
+
+//Pagination//
+.pagination {
+    margin-top: 7%;
+    display: flex;
+    justify-content: center;
+    width: auto;
 }
+.page-link {
+    text-decoration: none;
+    font-weight: 700;
+}
+.page-item {
+    transition: 0.3s ease-in-out;
+    &:hover {
+        color: #FF8800;
+        transform: scale(1.2);
+    }
+}
+//
 
 
+
+//Footer//
+footer {
+    background-color: black;
+}
 footer ul a{
     font-size: 17px;
     color: white;
@@ -67,7 +96,7 @@ footer ul a{
     text-decoration: none;
     transition: 0.5s ease-in-out;
 }
-ul {
+footer ul {
     list-style-type: none;
     padding: 20px;
     width: 150px;
@@ -76,8 +105,9 @@ ul {
     display: flex;
     justify-content: center;
     align-content: space-around;
+    margin-top: 2%;
 }
-ul a:hover {
+footer ul a:hover {
     color: #FF8800;
 }
 .footerTitle {
@@ -85,22 +115,12 @@ ul a:hover {
     font-size: 18px;
     font-weight: 700;
 }
-.footerLetter {
-    color: white;
-    font-size: 17px;
-    width: 616x;
-}
-
-
-
-
-
-
+//
 
 
 
 @media only screen and (max-width: 1100px) {
-    nav {
+    .navigation {
         display: flex;
         flex-direction: column;
         font-weight: 400;
@@ -123,6 +143,7 @@ ul a:hover {
         background-color: whitesmoke;
         color: black;
         padding: 1.5%;
+        margin-left: 0;
         font-size: 17px;
         &:hover {
         color: #FF8800;
@@ -144,7 +165,7 @@ ul a:hover {
 
 
 @media only screen and (max-width: 600px) {
-    nav {
+    .navigation {
         display: flex;
         flex-direction: column;
         text-align: start;
@@ -169,6 +190,7 @@ ul a:hover {
         color: black;
         padding: 1.5%;
         padding-left: 3.5%;
+        margin-left: 0;
         font-size: 17px;
         &:hover {
         color: #FF8800;
@@ -184,7 +206,47 @@ ul a:hover {
         font-size: 22px;
         }
     }
-    a {
-        margin: 0;
-    }
+}
+
+//container full page
+.container {
+    margin: 10% auto 10% auto;
+}
+
+//titles
+h1 {
+    text-shadow: 2px 2px black;
+}
+
+h2 {
+    margin-top: 5%;
+    text-shadow: 2px 2px black;
+}
+
+//make text bolder so it pops on background
+.see-text {
+    font-weight: 700;
+    text-shadow: 2px 2px black;
+}
+
+//spacing between lists
+.list-group{
+    margin-top: 2%;
+}
+
+//center everything
+.align {
+    max-width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+//badges
+.badge-primary {
+    margin-right: 5px;
+    background-color: black;
+}
+.badge-secondary{
+    margin-left: 5px;
+    background-color: #FF4646;
 }
