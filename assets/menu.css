@@ -31,6 +31,7 @@ body {
   transition: 0.6s ease-in-out;
   color: white;
   margin-left: 2%;
+  text-decoration: none;
 }
 
 .navBouton:hover {
@@ -47,6 +48,7 @@ body {
   font-weight: 700;
   color: white;
   margin-left: 2%;
+  text-decoration: none;
 }
 
 .navTitle:hover {
@@ -61,6 +63,7 @@ body {
   color: black;
   padding: 15px 50px 15px 50px;
   margin-left: 3%;
+  text-decoration: none;
 }
 
 .navBoutonBuy:hover {
