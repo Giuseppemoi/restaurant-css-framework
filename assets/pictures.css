@@ -116,6 +116,7 @@ ul a:hover {
   margin-top: 2%;
   -webkit-transition: all 0.8s ease-in-out;
   transition: all 0.8s ease-in-out;
+  margin-left: 9%;
 }
 
 .imgGroup {
@@ -134,6 +135,11 @@ ul a:hover {
   height: auto;
   padding: 2%;
   margin-bottom: 5%;
+}
+
+.imgTakeAway {
+  margin-left: 9%;
+  width: 500px;
 }
 
 @media only screen and (max-width: 1100px) {
@@ -228,6 +234,11 @@ ul a:hover {
   }
   .imgText {
     width: 400px;
+    margin-left: 0;
+  }
+  .imgTakeAway {
+    margin-left: 0;
+    width: auto;
   }
 }
 /*# sourceMappingURL=pictures.css.map */
