@@ -141,35 +141,43 @@ ul a:hover {
   height: 0;
   overflow: hidden;
   width: 500px;
-  background-color: white;
-  border-radius: 5px;
   margin-top: 2%;
   -webkit-transition: all 0.8s ease-in-out;
   transition: all 0.8s ease-in-out;
-  margin-left: 9%;
 }
 
 .imgGroup {
-  -webkit-filter: blur(1.5px);
-          filter: blur(1.5px);
+  overflow: hidden;
 }
 
 .imgGroup:hover {
-  -webkit-filter: blur(0);
-          filter: blur(0);
   -webkit-transition: all 0.8s ease-in-out;
   transition: all 0.8s ease-in-out;
 }
 
 .imgGroup:hover .imgText {
+  background-color: white;
+  border-radius: 5px;
   height: auto;
   padding: 2%;
-  margin-bottom: 5%;
+  margin-left: 9%;
+  margin-top: 15%;
+}
+
+.imgGroup:hover .img-fluid {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 .imgTakeAway {
   margin-left: 9%;
   width: 500px;
+}
+
+.img-fluid {
+  border-radius: 10px;
+  -webkit-transition: all 0.8s ease-in-out;
+  transition: all 0.8s ease-in-out;
 }
 
 @media only screen and (max-width: 1100px) {
