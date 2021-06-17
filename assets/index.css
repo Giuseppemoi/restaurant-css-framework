@@ -120,6 +120,7 @@ ul {
 
 ul a:hover {
   color: #FF8800;
+  text-decoration: none;
 }
 
 .footerTitle {
