@@ -8,7 +8,7 @@ body {
   width: 80px;
 }
 
-nav {
+.navigation {
   font-size: 19px;
   text-align: center;
   font-weight: 400;
@@ -20,15 +20,12 @@ nav {
   padding: 1.5%;
 }
 
-a {
-  color: white;
-  text-decoration: none;
-  margin-left: 2%;
-}
-
 .navBouton {
   -webkit-transition: 0.6s ease-in-out;
   transition: 0.6s ease-in-out;
+  color: white;
+  text-decoration: none;
+  margin-left: 2%;
 }
 
 .navBouton:hover {
@@ -42,6 +39,9 @@ a {
   font-size: 25px;
   margin-right: 25%;
   font-weight: 700;
+  color: white;
+  text-decoration: none;
+  margin-left: 2%;
 }
 
 .navTitle:hover {
@@ -55,12 +55,41 @@ a {
   color: black;
   padding: 15px 50px 15px 50px;
   margin-left: 3%;
+  text-decoration: none;
 }
 
 .navBoutonBuy:hover {
   color: #FF8800;
   padding: 15px 65px 15px 65px;
   font-weight: 900;
+}
+
+.pagination {
+  margin-top: 7%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  width: auto;
+}
+
+.page-link {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.page-item {
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.page-item:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 footer ul a {
@@ -101,7 +130,7 @@ ul a:hover {
 }
 
 @media only screen and (max-width: 1100px) {
-  nav {
+  .navigation {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -124,6 +153,7 @@ ul a:hover {
     background-color: whitesmoke;
     color: black;
     padding: 1.5%;
+    margin-left: 0;
     font-size: 17px;
   }
   .navBouton:hover {
@@ -144,7 +174,7 @@ ul a:hover {
 }
 
 @media only screen and (max-width: 600px) {
-  nav {
+  .navigation {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -169,6 +199,7 @@ ul a:hover {
     color: black;
     padding: 1.5%;
     padding-left: 3.5%;
+    margin-left: 0;
     font-size: 17px;
   }
   .navBouton:hover {
@@ -183,9 +214,6 @@ ul a:hover {
   .navBoutonBuy:hover {
     font-weight: 700;
     font-size: 22px;
-  }
-  a {
-    margin: 0;
   }
 }
 /*# sourceMappingURL=index.css.map */
