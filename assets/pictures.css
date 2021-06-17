@@ -129,6 +129,49 @@ ul a:hover {
   font-weight: 700;
 }
 
+.imgContainer {
+  width: 610px;
+  margin-top: 10%;
+  font-weight: 400;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imgText {
+  height: 0;
+  overflow: hidden;
+  width: 500px;
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 2%;
+  -webkit-transition: all 0.8s ease-in-out;
+  transition: all 0.8s ease-in-out;
+  margin-left: 9%;
+}
+
+.imgGroup {
+  -webkit-filter: blur(1.5px);
+          filter: blur(1.5px);
+}
+
+.imgGroup:hover {
+  -webkit-filter: blur(0);
+          filter: blur(0);
+  -webkit-transition: all 0.8s ease-in-out;
+  transition: all 0.8s ease-in-out;
+}
+
+.imgGroup:hover .imgText {
+  height: auto;
+  padding: 2%;
+  margin-bottom: 5%;
+}
+
+.imgTakeAway {
+  margin-left: 9%;
+  width: 500px;
+}
+
 @media only screen and (max-width: 1100px) {
   .navigation {
     display: -webkit-box;
@@ -167,9 +210,6 @@ ul a:hover {
   .navBoutonBuy:hover {
     font-weight: 900;
     font-size: 25px;
-  }
-  a {
-    margin: 0;
   }
 }
 
@@ -215,21 +255,16 @@ ul a:hover {
     font-weight: 700;
     font-size: 22px;
   }
+  .imgContainer {
+    width: auto;
+  }
+  .imgText {
+    width: 400px;
+    margin-left: 0;
+  }
+  .imgTakeAway {
+    margin-left: 0;
+    width: auto;
+  }
 }
-
-body {
-  color: white;
-}
-
-.btn-color {
-  background-color: #ff8800;
-}
-
-.span-align {
-  vertical-align: middle;
-}
-
-.container {
-  margin-top: 120px;
-}
-/*# sourceMappingURL=contact.css.map */
+/*# sourceMappingURL=pictures.css.map */
