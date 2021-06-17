@@ -33,7 +33,7 @@ a {
 
 .navBouton:hover {
   color: #FF8800;
-  border-bottom: 1.5px solid white;
+  border-bottom: 1.5px solid #FF8800;
 }
 
 .navTitle {
@@ -87,6 +87,7 @@ ul {
           justify-content: center;
   -ms-flex-line-pack: distribute;
       align-content: space-around;
+  margin-top: 2%;
 }
 
 ul a:hover {
