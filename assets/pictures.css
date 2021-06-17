@@ -13,6 +13,7 @@ nav {
   text-align: center;
   font-weight: 400;
   position: fixed;
+  z-index: 1;
   width: 100%;
   background-color: #303030;
   top: 0;
@@ -62,12 +63,6 @@ a {
   font-weight: 900;
 }
 
-.block {
-  background-color: #868686;
-  margin-top: 2%;
-  height: 5000px;
-}
-
 footer ul a {
   font-size: 17px;
   color: white;
@@ -104,51 +99,41 @@ ul a:hover {
   font-weight: 700;
 }
 
-.footerLetter {
-  color: white;
-  font-size: 17px;
-  width: 616x;
-}
-
-.imgFlex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+.imgContainer {
+  width: 610px;
   margin-top: 10%;
-  width: 700px;
+  font-weight: 400;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 8%;
 }
 
-.img2 {
-  margin-top: 3%;
+.imgText {
+  height: 0;
+  overflow: hidden;
+  width: 500px;
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 2%;
+  -webkit-transition: all 0.8s ease-in-out;
+  transition: all 0.8s ease-in-out;
 }
 
-.img3 {
-  margin-top: 3%;
+.imgGroup {
+  -webkit-filter: blur(1.5px);
+          filter: blur(1.5px);
 }
 
-.flexText {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.imgGroup:hover {
+  -webkit-filter: blur(0);
+          filter: blur(0);
+  -webkit-transition: all 0.8s ease-in-out;
+  transition: all 0.8s ease-in-out;
 }
 
-p {
-  margin-left: 4%;
-  margin-top: 7%;
-  color: white;
-  font-weight: 400;
-  width: 200px;
-  font-style: italic;
+.imgGroup:hover .imgText {
+  height: auto;
+  padding: 2%;
+  margin-bottom: 5%;
 }
 
 @media only screen and (max-width: 1100px) {
@@ -191,12 +176,6 @@ p {
   }
   a {
     margin: 0;
-  }
-  .flexText {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
   }
 }
 
@@ -244,20 +223,11 @@ p {
   a {
     margin: 0;
   }
-  .imgFlex {
+  .imgContainer {
     width: auto;
-    -webkit-box-align: normal;
-        -ms-flex-align: normal;
-            align-items: normal;
   }
-  .flexText {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  p {
-    width: 120px;
+  .imgText {
+    width: 400px;
   }
 }
 /*# sourceMappingURL=pictures.css.map */
