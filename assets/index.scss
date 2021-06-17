@@ -57,9 +57,21 @@ body {
 }
 //
 
+
+
+//Img with logo//
+.imgLogo {
+    width: 180px;
+    margin-top: 10%;
+    margin-left: 9.2%;
+}
+//
+
+
+
 //Jumbotron middle//
 .jumbotron {
-    margin: 10% auto 5% auto;
+    margin: 0.8% auto 5% auto;
     max-width: 80%;
     background-image: url(https://github.com/Giuseppemoi/restaurant-css-framework/blob/master/assets/images/imgjumbo.jpg?raw=true);
     background-repeat: no-repeat;
@@ -98,6 +110,14 @@ body {
 }
 .mb-3 {
     color: #FF8800;
+}
+.card-link {
+    color: black;
+    transition: 0.5s ease-in-out;
+    &:hover {
+        color: #FF8800;
+        border-bottom: 1.5px solid #FF8800;
+    }
 }
 //
 
