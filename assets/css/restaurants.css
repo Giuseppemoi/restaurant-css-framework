@@ -25,12 +25,12 @@ body {
   transition: 0.6s ease-in-out;
   color: white;
   margin-left: 2%;
+  text-decoration: none;
 }
 
 .navBouton:hover {
   color: #FF8800;
   border-bottom: 1.5px solid #FF8800;
-  text-decoration: none;
 }
 
 .navTitle {
@@ -41,11 +41,11 @@ body {
   font-weight: 700;
   color: white;
   margin-left: 2%;
+  text-decoration: none;
 }
 
 .navTitle:hover {
   color: #FF8800;
-  text-decoration: none;
 }
 
 .navBoutonBuy {
@@ -55,21 +55,55 @@ body {
   color: black;
   padding: 15px 50px 15px 50px;
   margin-left: 3%;
+  text-decoration: none;
 }
 
 .navBoutonBuy:hover {
   color: #FF8800;
   padding: 15px 65px 15px 65px;
   font-weight: 900;
-  text-decoration: none;
 }
 
 /*--------------*/
 .car {
-  margin-top: 10%;
-  margin-bottom: 3%;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-top: 12%;
+  margin-bottom: 10%;
+}
+
+.carousel-indicators {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.carousel-inner {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.carousel-inner img {
+  max-height: 650px;
+  margin: auto;
+}
+
+.withe1 {
+  background-color: white;
+  padding: 4% 2.2% 2.2% 10%;
+}
+
+.withe1 p {
+  font-size: 19px;
+  font-weight: 400;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 2%;
 }
 
 .horr {
@@ -78,19 +112,22 @@ body {
   margin-top: 8%;
 }
 
-.withe1 {
-  background-color: white;
-  padding: 2.2% 2.2% 2.2% 10%;
-}
-
-.withe1 p {
-  font-size: 20px;
-}
-
 .hor {
   margin-bottom: 5%;
-  margin-left: 8%;
+  margin-left: 10%;
   margin-top: 2%;
+}
+
+.add {
+  margin-top: 5%;
+}
+
+.add p {
+  margin: 0px;
+}
+
+.adress {
+  padding-top: 2%;
 }
 
 .map-responsive {
@@ -108,37 +145,6 @@ body {
   position: absolute;
 }
 
-.add {
-  margin-top: 5%;
-}
-
-.add p {
-  margin: 0px;
-}
-
-.container {
-  background-color: #868686;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin-top: 50px;
-  margin-bottom: 3%;
-}
-
-.carousel-inner {
-  width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
-.carousel-inner img {
-  max-height: 650px;
-  margin: auto;
-}
-
 .map {
   width: 50%;
   padding: 0%;
@@ -148,14 +154,8 @@ body {
   width: 100%;
   height: 300%;
   background-color: white;
-}
-
-.adress {
-  padding-top: 13%;
-}
-
-.test {
-  border: solid 2px black;
+  margin-top: 6%;
+  margin-bottom: 6%;
 }
 
 /*--------------------------------------------------------------------*/
@@ -249,6 +249,26 @@ ul a:hover {
   .card {
     margin-top: 3%;
   }
+  .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-line-pack: start;
+        align-content: flex-start;
+  }
+  .hor {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .add {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3%;
+  }
+  .map {
+    width: auto;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -304,4 +324,4 @@ ul a:hover {
     margin-top: 3%;
   }
 }
-/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=restaurants.css.map */

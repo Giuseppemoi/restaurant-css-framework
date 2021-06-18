@@ -24,10 +24,10 @@ body {
   transition: 0.6s ease-in-out;
   color: white;
   margin-left: 2%;
+  text-decoration: none;
   &:hover {
       color: #FF8800;
       border-bottom: 1.5px solid #FF8800;
-      text-decoration: none;
   }
 }
 .navTitle {
@@ -37,9 +37,9 @@ body {
   font-weight: 700;
   color: white;
   margin-left: 2%;
+  text-decoration: none;
   &:hover {
       color: #FF8800;
-      text-decoration: none;
   }
 }
 .navBoutonBuy {
@@ -48,109 +48,105 @@ body {
   color: black;
   padding: 15px 50px 15px 50px;
   margin-left: 3%;
+  text-decoration: none;
   &:hover {
       color: #FF8800;
       padding: 15px 65px 15px 65px;
       font-weight: 900;
-      text-decoration: none;
   }
 }
 
+
 /*--------------*/
-.car{
-    margin-top: 10%;
-    margin-bottom: 3%;
-    margin-left: 15%;
-    margin-right: 15%;
- 
+.car {
+  margin-top: 12%;
+  margin-bottom: 10%;
+}
+.carousel-indicators {
+  transition: all 0.5s ease;
+}
+.carousel-inner {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  img {
+    max-height: 650px;
+    margin: auto;
+  }
 }
 
 
-.horr{
+
+
+
+
+
+.withe1 {
+  background-color: white;
+  padding: 4% 2.2% 2.2% 10%;
+  p{
+    font-size: 19px;
+    font-weight: 400;
+  }
+}
+
+
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2%;
+}
+.horr {
   font-weight: bold;
   font-size: 25px;
   margin-top: 8%;
 }
-.withe1{
- 
-  background-color: white;
-  padding: 2.2% 2.2% 2.2% 10%;
-
-  
-  p{
-    font-size: 20px;
-    
-  }
-
-}
-
-.hor{
+.hor {
   margin-bottom: 5%;
-  margin-left: 8%;
+  margin-left: 10%;
   margin-top: 2%;
 }
+.add {
+  margin-top: 5%;
+  p {
+    margin: 0px;
+  }
+}
+.adress {
+  padding-top: 2%;
+}
 
-.map-responsive{
+
+
+.map-responsive {
   overflow:hidden;
   padding-bottom:50%;
   position:relative;
   height:0;
 }
-.map-responsive iframe{
+.map-responsive iframe {
   left:0;
   top:0;
   height:100%;
   width:100%;
   position:absolute;
 }
-
-.add{
-  margin-top: 5%;
-
-p{
-  margin: 0px;
-}
-}
-.container{
-  background-color: #868686;
-display: flex;
-justify-content: space-between;
-margin-top: 50px;
-margin-bottom: 3%;
-
-}
-  
-.carousel-inner{
-  width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
-  img {
-    max-height: 650px;
-      margin: auto;
-  }
-}
-.map{
+.map {
   width: 50%;
   padding: 0%;
- 
 }
-.map2{
+.map2 {
   width: 100%;
   height: 300%;
   background-color: white;
-}
-
-.adress{
-  padding-top: 13%;
-
-}
-.test{
-  border: solid 2px black;
+  margin-top: 6%;
+  margin-bottom: 6%;
 }
 
 /*--------------------------------------------------------------------*/
 
-footer ul a{
+footer ul a {
     font-size: 17px;
     color: white;
     line-height: 25px;
@@ -223,6 +219,22 @@ ul a:hover {
     }
     .card {
         margin-top: 3%;
+    }
+    .container {
+      flex-direction: column;
+      align-content: flex-start;
+    }
+    .hor {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .add {
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 3%;
+    }
+    .map {
+      width: auto;
     }
 }
 
