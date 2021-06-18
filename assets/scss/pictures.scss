@@ -58,6 +58,7 @@ body {
 //
 
 
+
 //Pagination//
 .pagination {
     margin-top: 7%;
@@ -72,7 +73,6 @@ body {
 .page-item {
     transition: 0.3s ease-in-out;
     &:hover {
-        color: #FF8800;
         transform: scale(1.2);
     }
 }
@@ -110,7 +110,48 @@ ul a:hover {
 }
 //
 
-
+//Pictures Pages Images//
+.imgContainer {
+    width: 610px;
+    margin-top: 10%;
+    font-weight: 400;
+    margin-left: auto;
+    margin-right: auto;
+}
+.imgText {
+    height: 0;
+    overflow: hidden;
+    width: 500px;
+    margin-top: 2%;
+    transition: all 0.8s ease-in-out;
+}
+.imgGroup {
+    overflow: hidden;
+    &:hover {
+        transition: all 0.8s ease-in-out;
+        .imgText {
+            background-color: white;
+            border-radius: 5px;
+            height: auto;
+            padding: 2%;
+            margin-left: 9%;
+            margin-top: 13.5%;
+            margin-bottom: 15%;
+        }
+        .img-fluid {
+            transform: scale(1.2);
+        }
+    }
+}
+.imgTakeAway {
+    margin-left: 9%;
+    width: 500px;
+}
+.img-fluid {
+    border-radius: 10px;
+    transition: all 0.8s ease-in-out;
+}
+//
 
 @media only screen and (max-width: 1100px) {
     .navigation {
@@ -144,9 +185,6 @@ ul a:hover {
         font-weight: 900;
         font-size: 25px;
         }
-    }
-    a {
-        margin: 0;
     }
 }
 
@@ -187,21 +225,16 @@ ul a:hover {
         font-size: 22px;
         }
     }
+    .imgContainer {
+        width: auto;
+    }
+    .imgText {
+        width: 400px;
+        margin-left: 0;
+    }
+    .imgTakeAway {
+        margin-left: 0;
+        width: auto;
+    }
 }
 
-body{
-    color: white;
-}
-
-.btn-color{
-    background-color: #ff8800;
-
-}
-
-.span-align{
-    vertical-align: middle;
-}
-
-.container{
-    margin-top: 120px;
-}
