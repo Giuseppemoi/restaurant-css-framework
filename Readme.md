@@ -27,8 +27,8 @@ Use **Bootstrap** for make it easier to work with buttons, tables or other pre-m
 ### Installation
 
 Create your repository on the site: https://github.com/, go to the tab with the little ** + ** at the top right.
-Launch your terminal and run the command ``git clone lien_de_votre_repository_github`` and enter the repository with the command ``cd progressive-enhancement``,
-create a ** HTML & CSS ** file with the command ``touch exemple.html`` & ``touch exemple.css``.
+Launch your terminal and run the command ``git clone lien_de_votre_repository_github`` and enter the repository with the command ``cd restaurant-css-framework``,
+create a ** HTML & CSS ** file with the command ``touch exemple.html`` & ``touch exemple.scss``.
 Theyre you go, you can start coding your website, use either ** VIM ** or a ** IDE **
 
  -*un **IDE** est un logiciel comme Visual studio code ou Sublime text est un logiciel de création d'applications, qui rassemble des outils de développement fréquemment utilisés dans une seule interface utilisateur graphique (GUI).*
