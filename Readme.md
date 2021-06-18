@@ -40,8 +40,13 @@ Theyre you go, you can start coding your website, use either ** VIM ** or a ** I
 * [Gitbash] - GUI Clients
 * [Bootstrap] - CSS Framework
 
-Stack:
-This website was created using HTML, SASS and Bootstrap.
+## Versions
 
-Authors:
-Gael DUBOIS, Giuseppe MOI, Mathis VANKOEKELBERG, Frank WANG.
+**Dernière version :** [Cliquer pour afficher](https://github.com/MathisVkg/progressive-enhancement/tags)
+
+## Auteurs
+
+* **Mathis Vkg** -- *[Profil](https://github.com/MathisVkg)*
+* **Gael DUBOIS** -- *[Profil]()*
+* **Frank WANG** -- *[Profil]()*
+* **Giuseppe MOI** -- *[Profil]()*
