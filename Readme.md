@@ -34,7 +34,7 @@ Theyre you go, you can start coding your website, use either ** VIM ** or a ** I
  -*un **IDE** est un logiciel comme Visual studio code ou Sublime text est un logiciel de création d'applications, qui rassemble des outils de développement fréquemment utilisés dans une seule interface utilisateur graphique (GUI).*
 
 
-## Logiciel utilisé
+## Software used
 
 * [Visual Studio Code] - IDE
 * [Gitbash] - GUI Clients
@@ -44,7 +44,7 @@ Theyre you go, you can start coding your website, use either ** VIM ** or a ** I
 
 **Dernière version :** [Cliquer pour afficher](https://github.com/Giuseppemoi/restaurant-css-framework/releases/tag/v1.0)
 
-## Auteurs
+## Authors
 
 * **Mathis Vkg** -- *[Profil](https://github.com/MathisVkg)*
 * **Gael DUBOIS** -- *[Profil](https://github.com/DuboisGael)*
