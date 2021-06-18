@@ -16,7 +16,7 @@ then start your **SCSS** file to beautify your work.
 
 Use **Bootstrap** for make it easier to work with buttons, tables or other pre-made effects
 
-### Pré-requis
+### Prerequisites
 
 - Creation of a repository with the name: *restaurant-css-framework*
 - Creation of an html and scss file
@@ -47,6 +47,6 @@ Theyre you go, you can start coding your website, use either ** VIM ** or a ** I
 ## Auteurs
 
 * **Mathis Vkg** -- *[Profil](https://github.com/MathisVkg)*
-* **Gael DUBOIS** -- *[Profil]()*
-* **Frank WANG** -- *[Profil]()*
-* **Giuseppe MOI** -- *[Profil]()*
+* **Gael DUBOIS** -- *[Profil](https://github.com/DuboisGael)*
+* **Frank WANG** -- *[Profil](https://github.com/FrankZiWANG-dev)*
+* **Giuseppe MOI** -- *[Profil](https://github.com/Giuseppemoi)*
