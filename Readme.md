@@ -1,5 +1,8 @@
 README
 
+![forthebadge](https://forthebadge.com/images/badges/uses-html.svg) ![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)
+
+
 Introduction:
 Our restaurant idea is a noodle shop with takeaway system, called "Send Noods".
 
