@@ -5,6 +5,10 @@ body {
 }
 
 
+<<<<<<< HEAD:assets/contact.scss
+//Navigation Bar//
+=======
+>>>>>>> master:assets/scss/contact.scss
 .logo {
     width: 80px;
 }
@@ -23,7 +27,10 @@ body {
     transition: 0.6s ease-in-out;
     color: white;
     margin-left: 2%;
+<<<<<<< HEAD:assets/contact.scss
+=======
     text-decoration: none;
+>>>>>>> master:assets/scss/contact.scss
     &:hover {
         color: #FF8800;
         border-bottom: 1.5px solid #FF8800;
@@ -37,7 +44,10 @@ body {
     font-weight: 700;
     color: white;
     margin-left: 2%;
+<<<<<<< HEAD:assets/contact.scss
+=======
     text-decoration: none;
+>>>>>>> master:assets/scss/contact.scss
     &:hover {
         color: #FF8800;
         text-decoration: none;
@@ -55,6 +65,8 @@ body {
         padding: 15px 65px 15px 65px;
         font-weight: 900;
         text-decoration: none;
+<<<<<<< HEAD:assets/contact.scss
+=======
     }
 }
 //
@@ -76,11 +88,36 @@ body {
     &:hover {
         color: #FF8800;
         transform: scale(1.2);
+>>>>>>> master:assets/scss/contact.scss
     }
 }
 //
 
 
+<<<<<<< HEAD:assets/contact.scss
+//Pagination//
+.pagination {
+    margin-top: 7%;
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+.page-link {
+    text-decoration: none;
+    font-weight: 700;
+}
+.page-item {
+    transition: 0.3s ease-in-out;
+    &:hover {
+        color: #FF8800;
+        transform: scale(1.2);
+    }
+}
+//
+
+
+=======
+>>>>>>> master:assets/scss/contact.scss
 
 //Footer//
 footer ul a{
