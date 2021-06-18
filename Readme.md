@@ -42,7 +42,7 @@ Theyre you go, you can start coding your website, use either ** VIM ** or a ** I
 
 ## Versions
 
-**Dernière version :** [Cliquer pour afficher](https://github.com/Giuseppemoi/restaurant-css-framework/releases/tag)
+**Dernière version :** [Cliquer pour afficher](https://github.com/Giuseppemoi/restaurant-css-framework/releases/tag/v1.0)
 
 ## Auteurs
 
