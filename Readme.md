@@ -44,9 +44,18 @@ Theyre you go, you can start coding your website, use either **VIM** or a **IDE*
 
 **Dernière version :** [Cliquer pour afficher](https://github.com/Giuseppemoi/restaurant-css-framework/releases/tag/v1.0)
 
-## Authors
+## Web Site Authors
 
 * **Mathis Vkg** -- *[Profil](https://github.com/MathisVkg)*
 * **Gael DUBOIS** -- *[Profil](https://github.com/DuboisGael)*
 * **Frank WANG** -- *[Profil](https://github.com/FrankZiWANG-dev)*
 * **Giuseppe MOI** -- *[Profil](https://github.com/Giuseppemoi)*
+
+## Image Authors
+
+* Page 1 : Image1= Lisovskaya ,image2= KPS, image3= Lisovskaya *
+* Page 2 : Image4= GoranQ ,image5= 4kodiak, image6= Taryn Elliott *
+* Page 3 : Image7= Olya Kobruseva ,image8= Marion Pintaux, image9= cottonbro *
+* Page 4 : Image10= Audrey Mari ,image11= Mikoto.raw, image12= JAN N GUYEN *
+
+--
