@@ -31,7 +31,7 @@ Launch your terminal and run the command ``git clone lien_de_votre_repository_gi
 create a **HTML & CSS** file with the command ``touch exemple.html`` & ``touch exemple.scss``.
 Theyre you go, you can start coding your website, use either **VIM** or a **IDE**
 
- -*a **IDE** is software like Visual Studio Code or Sublime Text is application building software, which brings together frequently used development tools into a single graphical user interface (GUI).*
+ -*A **IDE** is software like Visual Studio Code or Sublime Text is application building software, which brings together frequently used development tools into a single graphical user interface (GUI).*
 
 
 ## Software used
