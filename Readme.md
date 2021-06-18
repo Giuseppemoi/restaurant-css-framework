@@ -57,7 +57,7 @@ Theyre you go, you can start coding your website, use either **VIM** or a **IDE*
 ## Pictures used
 All photos are royalty-free. Here are the links and authors.
 - Logo (Welcome page): Designed on www.freelogodesign.org
-- Photo for Jumbotron (Welcome page): https://www.wallpaperbetter.com/tr/hd-wallpaper-wawzt. Author: BENAGEXYZ.
+- Photo for Jumbotron (Welcome page): https://wallhaven.cc/w/2e7mm6. Author: BENAGEXYZ.
 - Background for menu (Menu page): https://www.pexels.com/photo/composition-of-uncooked-noodles-and-fresh-vegetables-on-kitchen-counter-5908001/. Author: Katerina Holmes.
 - Photo for Egg-cellent Ramen (Gallery page 1): https://www.stockfood.com/images/12275444-Miso-Ramen-Asian-noodles-with-egg-enoki-and-pak-choi-cabbage-in-bowl-on-white-marble-background. Author: Lisovskaya.
 - Photo for Boaring Noods (Gallery page 1): https://www.istockphoto.com/fr/photo/nouilles-ramen-%C3%A0-la-sauce-de-soja-aromatis%C3%A9e-soupe-gm1144178043-307511098. Author: KPS.
