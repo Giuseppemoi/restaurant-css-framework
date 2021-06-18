@@ -4,7 +4,7 @@
 Realization of a site presenting our restaurant Send Noods
 Our restaurant idea is a noodle shop with takeaway system, called "Send Noods".
 
-## Voir le project
+## See the project
 
 - <a href="https://giuseppemoi.github.io/restaurant-css-framework/index.html" target="_blank">Send Noods</a>
 
