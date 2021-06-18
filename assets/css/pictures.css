@@ -86,7 +86,6 @@ body {
 }
 
 .page-item:hover {
-  color: #FF8800;
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
 }
